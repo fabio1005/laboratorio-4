@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: beige;
+
+}
+body {
+    margin: 40px;
+}
+hr{
+    margin: 40px ;
+}
+.logo {
+    max-width: 70px;
+    border-radius: 80px;
+}
+/*estilos del menu*/
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+       max-width: 50px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding: o 20px;
+    gap: 10px;
+}
+.btn-menu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+.activo{
+    border: 1px solid;
+    background-color: deepskyblue;
+    color: #f0eded;
+    border-radius: 5px;
+}    
+.btn-menu:hover{
+}
+.activo:hover{
+    color: dodgerblue;
+}
+/*estilos del contenido*/
+/*estilos del pie*/
+.pie{
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px ;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+  
+}
+/*estilos del pie de pagina*/
+.contenido{
+        margin: 20px;
+}
+.publicidad{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      margin-bottom: 30px;
+     
+}
+.publicidad img{
+    max-height: min-content;
+}
+.bandeja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.tarjeta{
+    border:2px solid  #a19d9d;
+    border-radius: 8px;
+    padding: 20px;
+}
+.tarjeta h3{
+          color: #a19d9d;
+}
+.tarjeta a{
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+}
